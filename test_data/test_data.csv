@@ -1,0 +1,70 @@
+clinic_name,patient_name,patient_bank,patient_card_number,patient_card_security_code,patient_address,charge_amount,expected_response_message
+Eastside Medical Center,Alexander Nguyen,AmericanExpress,343482034295006,5894,123 Oak St|10001,0.01,Approved.
+Eastside Medical Center,Olivia Smith,AmericanExpress,344932480293843,7428,987 Elm St|20002,0.01,Approved.
+Eastside Medical Center,Liam Anderson,AmericanExpress,374392094203944,9325,876 Cedar St|30303,0.01,Approved.
+Eastside Medical Center,Sophia Lee,AmericanExpress,343424320984339,6841,890 Oak St|40004,0.01,Approved.
+Eastside Medical Center,Hannah Davis,AmericanExpress,372938092803983,8526,234 Cedar St|50005,0.01,Bad Merchant Credentials.
+Eastside Medical Center,Noah Taylor,AmericanExpress,349283409283049,4196,567 Pine St|60006,0.01,Approved.
+Eastside Medical Center,Emily Moore,AmericanExpress,374839820938083,6029,987 Oak St|70007,0.01,Approved.
+Eastside Medical Center,Sarah Johnson,Bank of America,12345,5698,456 Elm St|80008,0.01,Approved.
+Eastside Medical Center,James Wilson,Bank of America,12356,6183,678 Walnut St|90009,50000,Insufficient funds.
+Eastside Medical Center,Christopher Garcia,Bank of America - invalid,12357,4389,987 Maple St|1010,0.01,Bad Bank Credentials.
+Eastside Medical Center,Michelle Turner,Bank of America,12358,7234,789 Walnut St|11011,0.01,Approved.
+Eastside Medical Center,Kevin Adams,Bank of America,12359,3612,456 Cedar St|21012,500000,Insufficient funds.
+Eastside Medical Center,Ashley Moore,Bank of America,12360,8976,876 Pine St|31013,0.01,Approved.
+Eastside Medical Center,Justin Wright,Bank of America,12361,6952,567 Cedar St|41014,0.01,Approved.
+Eastside Medical Center,Megan Stewart,Bank of America,12362,4598,678 Cedar St|51015,500000,Insufficient funds.
+Eastside Medical Center,Michelle Walker,Bank of America,12363,2684,456 Cedar St|61016,0.01,Approved.
+Eastside Medical Center,Michael Peterson,Bank of America,12364,8962,876 Cedar St|71017,0.01,Approved.
+Eastside Medical Center,Emily Brown,Capitol One,12375,7412,567 Pine St|81018,0.01,Approved.
+Eastside Medical Center,Ryan Taylor,Capitol One,12376,1,789 Elm St|91019,0.01,"Declined, No Security Code"
+Eastside Medical Center,Joshua Perez,Capitol One,12377,2718,321 Elm St|2020,0.01,Approved.
+Eastside Medical Center,Jessica Flores,Capitol One,12378,5872,234 Elm St|12021,0.01,Approved.
+Eastside Medical Center,Brandon Scott,Capitol One,12379,2197,987 Elm St|22022,0.01,Approved.
+Eastside Medical Center,Alyssa Clark,Capitol One,12380,9823,789 Cedar St|32023,0.01,Approved.
+Eastside Medical Center,Jonathan Evans,Capitol One,12381,5412,765 Walnut St|42024,0.01,Approved.
+Eastside Medical Center,Emily Powell,Capitol One,12382,7183,890 Elm St|52025,0.01,Approved.
+Eastside Medical Center,Stephanie Turner,Capitol One,12383,9321,987 Elm St|62026,0.01,Approved.
+Eastside Medical Center,Brandon Ward,Capitol One,12384,3749,789 Cedar St|72027,0.01,Approved.
+Eastside Medical Center,David Martinez,Chase,12345,9527,890 Maple St|82028,0.01,Bad Merchant Credentials.
+Eastside Medical Center,Samantha Martinez,Chase,12386,8593,876 Birch St|92029,0.01,Approved.
+Eastside Medical Center,David Thompson,Chase - invalid,12387,6324,890 Maple St|3030,0.01,Bad Bank Credentials.
+Eastside Medical Center,Elizabeth Taylor,Chase,12388,7542,654 Walnut St|13031,0.01,Approved.
+Eastside Medical Center,Nathan Green,Chase,12389,4275,890 Oak St|23032,0.01,Approved.
+Eastside Medical Center,Rebecca Torres,Chase,12390,9876,876 Maple St|33033,0.01,Approved.
+Eastside Medical Center,Nicole Long,Chase,12391,3698,321 Walnut St|43034,0.01,Approved.
+Eastside Medical Center,Christopher Reed,Chase,12392,6342,654 Walnut St|53035,0.01,Approved.
+Eastside Medical Center,Jennifer Torres,Chase,12393,8274,890 Oak St|63036,0.01,Approved.
+Eastside Medical Center,Sophia Patel,MasterCard,5193482093849340,7963,456 Cedar St|73037,0.01,Approved.
+Eastside Medical Center,Nathan Brown,MasterCard,5294394239489280,6137,654 Walnut St|83038,0.01,Approved.
+Eastside Medical Center,Abigail Jones,MasterCard - invalid,5394938290384930,4086,543 Birch St|93039,0.01,Bad Bank Credentials.
+Eastside Medical Center,Avery Martinez,MasterCard,5439849839489380,5192,543 Pine St|4040,0.01,Approved.
+Eastside Medical Center,Ethan Brown,MasterCard,5193498394893890,9467,678 Walnut St|14041,0.01,Approved.
+Eastside Medical Center,Chloe Thomas,MasterCard,5284389438993930,1385,321 Elm St|24042,0.01,Approved.
+Eastside Medical Center,Lucas Martin,MasterCard,5559329829839820,2943,654 Maple St|34043,0.01,Approved.
+Eastside Medical Center,Michael Williams,US Bank,12345,3256,789 Oak St|44044,0.01,Approved.
+Eastside Medical Center,Michelle Lee,US Bank,12366,2794,345 Birch St|54045,0.01,Approved.
+Eastside Medical Center,Amanda Hernandez,US Bank,12367,6741,654 Oak St|64046,0.01,Approved.
+Eastside Medical Center,Brian Diaz,US Bank,12368,1498,456 Pine St|74047,0.01,Approved.
+Eastside Medical Center,Danielle Wilson,US Bank,12369,4826,789 Pine St|84048,500000,Insufficient funds.
+Eastside Medical Center,Christopher Hill,US Bank,12370,5368,543 Birch St|94049,0.01,Approved.
+Eastside Medical Center,Amanda Ramirez,US Bank,12371,8634,432 Elm St|5050,0.01,Approved.
+Eastside Medical Center,Scott Thompson,US Bank,12372,2,456 Birch St|15051,0.01,"Declined, No Security Code"
+Eastside Medical Center,James Morris,US Bank,12373,7153,789 Pine St|25052,0.01,Approved.
+Eastside Medical Center,Amanda Carter,US Bank,12374,4526,543 Birch St|35053,0.01,Approved.
+Eastside Medical Center,Logan Johnson,Visa,4348932049384380,2569,789 Pine St|45054,0.01,Approved.
+Eastside Medical Center,Isabella Wilson,Visa,4193839489384930,8741,321 Maple St|55055,0.01,Approved.
+Eastside Medical Center,Mason Garcia,Visa,4389483949384980,7598,789 Cedar St|65056,0.01,Approved.
+Eastside Medical Center,Michael Johnson,Visa,4374837847837480,3674,456 Elm St|75057,0.01,Approved.
+Eastside Medical Center,Amelia Wilson,Visa - invalid,4123287382738270,7021,890 Maple St|85058,0.01,Bad Merchant Credentials.
+Eastside Medical Center,William White,Visa - invalid,4323423434342340,8754,876 Birch St|95059,0.01,Bad Merchant Credentials.
+Eastside Medical Center,John Smith,Wells Fargo,12345,8745,123 Main St|6060,0.01,Approved.
+Eastside Medical Center,Lisa Anderson,Wells Fargo,12346,4873,234 Cedar St|16061,0.01,Approved.
+Eastside Medical Center,Emily Rodriguez,Wells Fargo,12347,5948,321 Pine St|26062,0.01,Bad Merchant Credentials.
+Eastside Medical Center,Andrew King,Wells Fargo,12348,3967,543 Cedar St|36063,0.01,Approved.
+Eastside Medical Center,Stephanie Nguyen,Wells Fargo,12349,7951,123 Oak St|46064,0.01,Approved.
+Eastside Medical Center,Matthew Lewis,Wells Fargo,12350,6432,321 Maple St|56065,0.01,Approved.
+Eastside Medical Center,Kimberly Baker,Wells Fargo,12351,3189,234 Pine St|66066,0.01,Approved.
+Eastside Medical Center,Travis Hernandez,Wells Fargo,12352,6321,543 Pine St|76067,0.01,Approved.
+Eastside Medical Center,David Clark,Wells Fargo,12353,4876,123 Oak St|86068,0.01,Approved.
+Eastside Medical Center,Jessica Diaz,Wells Fargo,12354,5791,321 Maple St|96069,500000,Insufficient funds.
