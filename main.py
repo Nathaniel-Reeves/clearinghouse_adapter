@@ -1,6 +1,8 @@
 import requests
 import datetime
 import csv
+import time
+import sys
 
 # For Assignment 7b, use the test_data.csv file
 FILENAME = "test_data/test_data.csv"
@@ -64,6 +66,15 @@ def main():
     for row in data:
         body = format_request_body(row, mode)
         response = send_to_clearinghouse(body)
+        wait = 1
+        while response == "Bank Not Available":
+            if wait > 5:
+                break
+            print(f"Error Detected: Bank Not Available - retrying in {wait} sec.")
+            time.sleep(wait)
+            response = send_to_clearinghouse(body)
+            wait *= 2
+            
         if mode == "testing":
             if response == row["expected_response_message"]:
                 print("Test Passed! Patient: " + str(row["patient_name"]) + "\n   - Response: " + str(row["expected_response_message"]))
@@ -82,4 +93,9 @@ def main():
     
 
 if __name__ == '__main__':
+    old_stdout = sys.stdout
+    log_file = open("merchant_sim.log","w")
+    sys.stdout = log_file
     main()
+    sys.stdout = old_stdout
+    log_file.close()
